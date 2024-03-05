@@ -58,6 +58,12 @@ public class Array {
         // 문자열 3개 저장하는 배열 만들기
         String[] arr2 = new String[3];
 
+        int[] arr3 = new int[3];
+
+        arr3[0] = 10;
+        arr3[1] = 20;
+        arr3[2] = 30;
+
 
 
     }
