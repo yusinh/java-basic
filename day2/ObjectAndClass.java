@@ -26,7 +26,7 @@ public class ObjectAndClass {
         // ===================================================
 
         // 2.이력서 원본 복사 (=객체,오브젝트,인스턴스)
-        Person p1 = new Person();
+        Person1 p1 = new Person1();
 
         // 3.복사본에다가 홍길동의 정보를 기입
         p1.name = "홍길동";
@@ -35,7 +35,7 @@ public class ObjectAndClass {
 
 
         // 4.이력서 원본 복사
-        Person p2 = new Person();
+        Person1 p2 = new Person1();
 
         // 5.복사본에다가 이순신 정보를 기입
         p2.name = "이순신";
@@ -50,14 +50,14 @@ public class ObjectAndClass {
         System.out.printf("%s사는 %d살 %s입니다.\n", p2.home, p2.age, p2.name);
 
         // 객체 복사
-        Person p3 = p2;
+        Person1 p3 = p2;
         System.out.println(p3.name);
 
 
         // ============================================================
 
         // 자동차 1개 생성
-        Car c1 = new Car();
+        Car1 c1 = new Car1();
         c1.model = "포르쉐";
         c1.price = 1000;
         c1.year = 12;
@@ -66,14 +66,14 @@ public class ObjectAndClass {
 }
 
 // 1.새로운 클래스 생성
-class Person {
+class Person1 {
     String name;
     int age;
     String home;
 
 }
 
-class Car {
+class Car1 {
     String model;
     int year;
     int price;
