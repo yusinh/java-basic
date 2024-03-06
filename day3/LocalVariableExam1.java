@@ -23,7 +23,7 @@ public class LocalVariableExam1 {
 
 
 class Car {
-    static int speed; // 객체를 생성하지 않았으니까 복사를 할 수 없음. 따라서 static을 붙임으로써 하나를 다같이 사용.
+    static int speed;
     static void run() {
         System.out.println("자동차가 최대속력 " + speed + "km로 달립니다.");
     }
