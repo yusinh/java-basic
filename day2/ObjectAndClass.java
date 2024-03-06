@@ -67,9 +67,9 @@ public class ObjectAndClass {
 
 // 1.새로운 클래스 생성
 class Person1 {
-    String name;
-    int age;
-    String home;
+    String name;  // 8바이트
+    int age; // 4바이트
+    String home; // 8바이트
 
 }
 
