@@ -20,15 +20,22 @@ public class AccountExam_1 {
 
         remainder = a1.getRemainder();
         System.out.println(remainder); // 4200
+
+
+        //---------------------------------------------
+        Account a2 = new Account(); // 영희 계좌
+
+        a2.deposit(3000); // 3000원을 예금했습니다.
+        a2.deposit(5000); // 5000원을 예금했습니다.
+
+
+
     }
 }
 
 class Account {
 
     int balance = 0;
-    String customer1 = "철수계좌";
-    String customer2 = "영희계좌";
-
 
     public void deposit(int deposit) {
         balance += deposit;
