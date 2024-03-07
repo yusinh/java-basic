@@ -11,12 +11,9 @@ public class CompositionExam1 {
     }
 }
 class 사람 {
-    public 팔 a왼팔;
     int 나이;
-    int 길이;
+    팔 a왼팔;
 }
-class 팔 extends 사람 {
-    public int 길이() {
-        return 100;
-    }
+class 팔 {
+    int 길이 = 100;
 }
