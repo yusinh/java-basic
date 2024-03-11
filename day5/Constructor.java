@@ -1,5 +1,5 @@
-package day5;
-
+//package day5;
+//
 //public class Constructor {
 //    public static void main(String[] args) {
 //        사람 a사람 = new 사람(20, "홍길동", "서울");
