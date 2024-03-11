@@ -24,6 +24,10 @@ public class ArrayListExam2 {
         list.get(2).introduce();
         list.get(3).introduce();
 
+        for (사람 대상 : list) {
+            대상.introduce();
+        }
+
         for (int Number = 0; Number < list.size(); Number++) {
             if (list.get(Number).getAge() < 40 && list.get(Number).getAge() > 29) {
                 list.get(Number).introduce();
